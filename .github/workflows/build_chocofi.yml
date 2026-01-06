@@ -7,4 +7,4 @@ jobs:
     with:
       board: '["nice_nano"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=15\nCONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=15"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=8\nCONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=8"]'
